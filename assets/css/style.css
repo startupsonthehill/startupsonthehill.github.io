@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 
 hr {
-  border-width: 2px;
-  border-color: #DC143C;
+  border-width: 3px;
+  border-color: #8b0000;
 }
 
 .section {

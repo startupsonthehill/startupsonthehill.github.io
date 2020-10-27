@@ -48,6 +48,24 @@ hr {
 .filters ul {
   list-style-type: none;
   font-size: 30px;
+  /* display: flex; */
+}
+
+@media screen and (max-width: 600px) {
+  /* #wrap {
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    right: 0;
+    left: 30px;
+  } */
+  .filters ul {
+    list-style-type: none;
+    font-size: 30px;
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 20px;
+  }
 }
 
 .filters a {

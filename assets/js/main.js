@@ -51,6 +51,10 @@
     siteIstotope();
   });
 
+  $('#exampleModalCenter').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
   var siteOwlCarousel = function() {
     $('.testimonial-carousel').owlCarousel({
       center: true,

@@ -36,6 +36,64 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-weight: bold;
 }
 
+/* Customize Themes By Page */
+.resource {
+  color: #1365fb !important;
+  border-color: #1365fb;
+}
+
+#resource {
+  background: linear-gradient(90deg, #84DEF2, #1365FB);
+  background-size: 250% 250%;
+}
+
+.about {
+  color: #9a4ac7 !important;
+  border-color: #9a4ac7;
+}
+
+#about {
+  background: linear-gradient(90deg, #D62784, #1365FB);
+  background-size: 250% 250%;
+}
+
+.contact {
+  color: #27CF73 !important;
+  border-color: #27CF73;
+}
+
+#contact {
+  background: linear-gradient(90deg, #27CF73, #1365FB);
+  background-size: 250% 250%;
+}
+
+/* Gradient Separator */
+.separator {
+  height: 5px;
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  content: '';
+  background: linear-gradient(90deg, #FFC61A, #DC143C);
+  background-size: 250% 250%;
+  animation: gradient 10s ease infinite;
+  box-sizing: border-box;
+  margin: 25px 0 10px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 hr {
   border-width: 3px;
   border-color: #8b0000;

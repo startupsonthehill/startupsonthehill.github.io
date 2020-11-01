@@ -168,9 +168,15 @@ hr {
 }
 
 .item .item-wrap {
+  height: 252px;
+  width: 252px;
   display: block;
   position: relative;
   overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .item .item-wrap:after {
@@ -188,6 +194,11 @@ hr {
 }
 
 .item .item-wrap img {
+  margin: auto;
+  display: block;
+  height: auto;
+  border: 0;
+  max-width: 100%;
   transition: .3s transform ease;
   transform: scale(1);
 }
@@ -236,25 +247,10 @@ hr {
   visibility: visible;
 }
 
-.testimonial-wrap {
-  padding: 50px 50px 80px 50px;
-  background: #eceff2;
-}
+/* Logo Styles */
 
-.testimonial-wrap .testimonial {
-  text-align: center;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.testimonial-wrap .testimonial img {
-  border-radius: 50%;
-  width: 120px;
-  margin: 0 auto 30px auto;
-}
-
-.testimonial-wrap .testimonial blockquote p {
-  font-size: 20px;
+#dojo {
+  width: 60% !important;
 }
 
 .h3 {

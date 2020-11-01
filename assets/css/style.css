@@ -249,8 +249,16 @@ hr {
 
 /* Logo Styles */
 
-#dojo {
+#dojo, #vanwickleventures, #fsab, #betterworldbydesign, #dfa, #bsainspire, #bdw {
   width: 60% !important;
+}
+
+#bonnercommunityfellowship {
+  width: 80% !important;
+}
+
+#srif {
+  width: 50% !important;
 }
 
 .h3 {

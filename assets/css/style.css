@@ -149,7 +149,7 @@ hr {
 }
 
 .filters a.active {
-  color: #000;
+  color: #dc143c;
 }
 
 .filters a.active:before {
@@ -159,7 +159,7 @@ hr {
   right: 10px;
   bottom: 0;
   height: 1px;
-  background-color: #000;
+  background-color: #dc143c;
 }
 
 .item {

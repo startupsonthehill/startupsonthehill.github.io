@@ -21,7 +21,7 @@
 
 
   var siteIstotope = function() {
-    var $container = $('#portfolio-grid').isotope({
+    var $container = $('#resource-grid').isotope({
       itemSelector: '.item',
       // columnWidth: '.col-md-9'
       // isFitWidth: true

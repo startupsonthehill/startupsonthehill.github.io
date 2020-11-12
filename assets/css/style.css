@@ -507,6 +507,32 @@ hr {
   outline: none;
 }
 
+/* About */
+#about {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 20px;
+}
+
+a .desc {
+  font-size: 20px;
+  color: #dc143c;
+  text-decoration: none;
+}
+
+#epbtn:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #dc143c;
+}
+
+.icons a i {
+  font-size: 30px;
+  margin: 0 10px;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

@@ -1,10 +1,3 @@
-/**
-* Template Name: MyPortfolio - v2.1.0
-* Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -22,7 +15,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-  font-family: "Sofia-Pro", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .brand {
@@ -38,9 +31,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   right: 0;
   left: 0;
   content: '';
-  background: linear-gradient(90deg, #FFC61A, #ff8c00, #DC143C);
+  background: linear-gradient(90deg, rgb(255, 251, 13), rgb(250, 188, 19), #DC143C);
   background-size: 250% 250%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 8s ease infinite;
   box-sizing: border-box;
   margin: 25px 0 10px;
 }
@@ -73,19 +66,20 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-  /* #wrap {
-    position: fixed;
-    z-index: 200;
-    top: 0;
-    right: 0;
-    left: 30px;
-  } */
   .filters ul {
     list-style-type: none;
     font-size: 30px;
     display: flex;
     overflow-x: scroll;
     margin-bottom: 20px;
+  }
+  .footer-mobile {
+    flex-direction: row !important;
+    display: flex !important;
+    box-sizing: border-box;
+    align-items: flex-start !important;
+    margin-bottom: 35px;
+    margin-right: 30px;
   }
 }
 

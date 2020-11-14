@@ -119,18 +119,18 @@ hr {
   background-color: #dc143c;
 }
 
-figure {
+.rsrc {
     position:relative;
     overflow:hidden;
     font-weight:normal;
     display: inline-block;
 }
 
-figure img {
+.rsrc img {
     display:block;
 }
 
-figcaption {
+.rsrccap {
     position:absolute;
     background:rgba(220,20,60,.93);
     color:#fff;
@@ -145,7 +145,7 @@ figcaption {
     transition:all 0.25s ease;
 }
 
-figure:hover figcaption {
+.rsrc:hover .rsrccap {
     opacity:1;
     transform: translateY(-100%);
 } 

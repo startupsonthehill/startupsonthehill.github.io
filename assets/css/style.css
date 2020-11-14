@@ -119,6 +119,37 @@ hr {
   background-color: #dc143c;
 }
 
+figure {
+    position:relative;
+    overflow:hidden;
+    font-weight:normal;
+    display: inline-block;
+}
+
+figure img {
+    display:block;
+}
+
+figcaption {
+    position:absolute;
+    background:rgba(220,20,60,.93);
+    color:#fff;
+    padding:1rem;
+    text-align:left;
+    font-size:.9rem;
+    opacity:0;
+    top:100%;
+    left:0;
+    width: 100%;
+    transform: translateY(0%);
+    transition:all 0.25s ease;
+}
+
+figure:hover figcaption {
+    opacity:1;
+    transform: translateY(-100%);
+} 
+
 .item {
   border: none;
   margin-bottom: 30px;
@@ -136,75 +167,7 @@ hr {
   align-items: center;
 }
 
-.item .item-wrap:after {
-  z-index: 2;
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
-  visibility: hidden;
-  opacity: 0;
-  transition: .3s all ease-in-out;
-}
-
-.item .item-wrap img {
-  margin: auto;
-  display: block;
-  height: auto;
-  border: 0;
-  max-width: 100%;
-  transition: .3s transform ease;
-  transform: scale(1);
-}
-
-.item .item-wrap > .work-info {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  z-index: 3;
-  transform: translateY(-50%);
-  color: #fff;
-  opacity: 0;
-  visibility: hidden;
-  margin-top: 20px;
-  transition: .3s all ease;
-}
-
-.item .item-wrap > .work-info h3 {
-  font-size: 20px;
-  margin-bottom: 0;
-}
-
-.item .item-wrap > .work-info span {
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-}
-
-.item .item-wrap:hover {
-  text-decoration: none;
-}
-
-.item .item-wrap:hover img {
-  transform: scale(1.05);
-}
-
-.item .item-wrap:hover:after {
-  opacity: 1;
-  visibility: visible;
-}
-
-.item .item-wrap:hover .work-info {
-  margin-top: 0px;
-  opacity: 1;
-  visibility: visible;
-}
-
-/* Logo Styles */
+/* Logos */
 
 #dojo, #vanwickleventures, #fsab, #betterworldbydesign, #dfa, #bsainspire, #bdw {
   width: 60% !important;
@@ -216,6 +179,10 @@ hr {
 
 #srif {
   width: 50% !important;
+}
+
+.expgrants {
+  width: 45% !important;
 }
 
 .h3 {
@@ -248,7 +215,13 @@ hr {
 .readmore:hover {
   color: #fff;
   text-decoration: none;
-  background: #000;
+  background: #dc143c;
+  border: 1px solid #fff;
+}
+
+.internallinks {
+  font-weight: bold;
+  color: #dc143c;
 }
 
 .sticky-content {
@@ -372,7 +345,7 @@ hr {
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #000;
+  background: #dc143c;
 }
 
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {

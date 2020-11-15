@@ -381,11 +381,6 @@ hr {
   padding-bottom: 25px;
 }
 
-.footer-bg {
-  background-color: #E8E8E8;
-  padding-top: 4rem !important;
-}
-
 .arrow {
   display: none;
 }
@@ -560,6 +555,11 @@ a .desc {
 --------------------------------------------------------------*/
 .footer {
   padding: 0 0 4rem 0;
+}
+
+.footer-bg {
+  background-color: #E8E8E8;
+  padding-top: 4rem !important;
 }
 
 #brownep {

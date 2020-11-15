@@ -81,7 +81,16 @@ hr {
     margin-bottom: 35px;
     margin-right: 30px;
   }
+  .icons {
+    justify-content: center !important;
+  }
 }
+
+@media screen and (min-width: 800px) {
+  #p1 {
+    margin-left: 192px;
+  }
+} 
 
 .filters a {
   color: #000;
@@ -167,6 +176,14 @@ hr {
   align-items: center;
 }
 
+.p1 {
+  margin-left: 192px;
+}
+
+.p2 {
+
+
+}
 /* Logos */
 
 #dojo, #vanwickleventures, #fsab, #betterworldbydesign, #dfa, #bsainspire, #bdw {
@@ -488,6 +505,10 @@ a .desc {
   font-size: 20px;
   color: #dc143c;
   text-decoration: none;
+}
+
+#team {
+
 }
 
 #epbtn:hover {
